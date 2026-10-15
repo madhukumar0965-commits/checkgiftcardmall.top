@@ -6,9 +6,9 @@ import { faqs } from "@/lib/faq";
 import { pageMetadata } from "@/lib/seo";
 import { site } from "@/lib/site";
 
-const title = "GiftCardMall/MyGift | Activate Gift Card | View Your Gift";
+const title = "GiftCardMall/MyGift | Activate Gift Card |MyGift, Blackhawk Network";
 const description =
-  "Learn how to check your giftcardmall/mygift balance, explore GiftCardMall balance options, activate eligible cards, register cards, and review transactions.";
+  "Learn how to check your giftcardmall/mygift balance, MyGift, Blackhawk Network explore GiftCardMall balance options, activate eligible cards, register cards, and review transactions.";
 
 export const metadata = pageMetadata(title, description, "");
 
