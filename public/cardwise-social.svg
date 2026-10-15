@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" fill="#111C35"/>
+  <circle cx="1025" cy="138" r="250" fill="#1A2A48"/>
+  <circle cx="1025" cy="138" r="190" stroke="#34445F" stroke-width="2"/>
+  <rect x="790" y="285" width="250" height="165" rx="22" transform="rotate(-8 790 285)" fill="#BDF1DE"/>
+  <rect x="820" y="326" width="42" height="32" rx="7" transform="rotate(-8 820 326)" fill="#347861"/>
+  <rect x="817" y="400" width="92" height="7" rx="3.5" transform="rotate(-8 817 400)" fill="#669782"/>
+  <text x="95" y="170" fill="#BDF1DE" font-family="Arial,sans-serif" font-size="25" font-weight="700" letter-spacing="5">INDEPENDENT CARD-SAFETY RESOURCE</text>
+  <text x="92" y="285" fill="white" font-family="Arial,sans-serif" font-size="77" font-weight="700" letter-spacing="-3">Clear guidance.</text>
+  <text x="92" y="380" fill="white" font-family="Arial,sans-serif" font-size="77" font-weight="700" letter-spacing="-3">Safer card choices.</text>
+  <text x="97" y="475" fill="#CAD4E1" font-family="Arial,sans-serif" font-size="30">Prepaid &amp; gift card information, made simple.</text>
+  <text x="99" y="560" fill="#BDF1DE" font-family="Arial,sans-serif" font-size="24" font-weight="700">CARDWISE GUIDE</text>
+</svg>

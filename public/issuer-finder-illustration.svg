@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480" fill="none">
+  <rect width="900" height="480" rx="28" fill="#F1F7F5"/>
+  <circle cx="759" cy="85" r="145" fill="#E4F0EA"/>
+  <circle cx="138" cy="425" r="106" fill="#E8EFF6"/>
+  <path d="M284 238H379M526 238H619" stroke="#91BBAA" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 10"/>
+  <rect x="75" y="121" width="222" height="142" rx="19" transform="rotate(-5 75 121)" fill="#162744"/>
+  <rect x="101" y="147" width="39" height="29" rx="7" transform="rotate(-5 101 147)" fill="#BDEBD9"/>
+  <path d="M109 157L136 155M111 167L138 165M122 152L124 176" stroke="#4D937B" stroke-width="2"/>
+  <rect x="102" y="209" width="77" height="7" rx="3.5" transform="rotate(-5 102 209)" fill="#94A6BE"/>
+  <rect x="101" y="228" width="51" height="6" rx="3" transform="rotate(-5 101 228)" fill="#5E7592"/>
+  <circle cx="448" cy="238" r="74" fill="white"/>
+  <circle cx="438" cy="226" r="34" stroke="#367D67" stroke-width="9"/>
+  <path d="M463 252L491 280" stroke="#367D67" stroke-width="11" stroke-linecap="round"/>
+  <path d="M426 226L435 235L452 215" stroke="#367D67" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="625" y="115" width="203" height="245" rx="21" fill="white"/>
+  <path d="M659 154H779" stroke="#DDE6E3" stroke-width="2"/>
+  <circle cx="666" cy="194" r="17" fill="#DDF3E9"/>
+  <path d="M659 194L664 199L673 188" stroke="#31745F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="697" y="187" width="95" height="7" rx="3.5" fill="#637087"/>
+  <rect x="697" y="201" width="71" height="5" rx="2.5" fill="#D4DBE4"/>
+  <circle cx="666" cy="251" r="17" fill="#E5ECF5"/>
+  <text x="661" y="256" fill="#263754" font-family="Arial,sans-serif" font-size="14" font-weight="700">2</text>
+  <rect x="697" y="244" width="105" height="7" rx="3.5" fill="#637087"/>
+  <rect x="697" y="258" width="77" height="5" rx="2.5" fill="#D4DBE4"/>
+  <circle cx="666" cy="308" r="17" fill="#E5ECF5"/>
+  <text x="661" y="313" fill="#263754" font-family="Arial,sans-serif" font-size="14" font-weight="700">3</text>
+  <rect x="697" y="301" width="84" height="7" rx="3.5" fill="#637087"/>
+  <rect x="697" y="315" width="66" height="5" rx="2.5" fill="#D4DBE4"/>
+  <circle cx="81" cy="83" r="6" fill="#70B89C"/>
+  <circle cx="538" cy="103" r="8" fill="#9AB7C7"/>
+  <path d="M324 113L334 132L355 135L340 150L344 171L324 161L305 171L309 150L294 135L315 132L324 113Z" fill="#BDEBD9"/>
+  <text x="96" y="330" fill="#5C6A80" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="1">YOUR CARD</text>
+  <text x="385" y="351" fill="#5C6A80" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="1">VERIFY</text>
+  <text x="664" y="397" fill="#5C6A80" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="1">RIGHT SUPPORT</text>
+</svg>
