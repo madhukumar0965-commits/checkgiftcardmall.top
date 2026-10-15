@@ -83,8 +83,8 @@ lib/
   seo.ts
   site.ts
 public/
-  cardwise-hero.svg
-  cardwise-social.svg
+  checkgiftcardmall-hero.svg
+  checkgiftcardmall-social.svg
 types/
   bootstrap-bundle.d.ts
 ```

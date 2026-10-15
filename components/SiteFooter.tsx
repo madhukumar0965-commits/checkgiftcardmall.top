@@ -7,7 +7,7 @@ export default function SiteFooter() {
       <div className="container">
         <div className="footer-top row g-4">
           <div className="col-lg-5">
-            <Link className="footer-brand" href="/">cardwise<span>guide</span></Link>
+            <Link className="footer-brand" href="/">{site.name}</Link>
             <p className="footer-summary">Clear, independent information for safer prepaid and gift card decisions.</p>
             <p className="footer-independence">Independent educational resource. Not affiliated with, endorsed by, or a representative of any card issuer, payment network, retailer, or financial institution.</p>
           </div>

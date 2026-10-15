@@ -3,7 +3,7 @@ import { site } from "@/lib/site";
 import StaticPage from "@/components/StaticPage";
 
 export const metadata = pageMetadata(
-  "Contact Cardwise | Independent Prepaid Card Safety Guide",
+  "Contact CheckGiftCardMall | Independent Prepaid Card Safety Guide",
   "Contact CheckGiftCardMall with content feedback. Do not send card details; for card or account help, contact the issuer through details printed on your card.",
   "/contact",
 );

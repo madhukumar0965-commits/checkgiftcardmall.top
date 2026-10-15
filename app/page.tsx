@@ -77,7 +77,7 @@ export default function Home() {
               </div>
               <div className="col-lg-5 hero-visual">
                 <div className="hero-image-frame">
-                  <Image src="/cardwise-hero.svg" alt="Illustration of a simple card, a shield, and a checklist" width={560} height={480} priority />
+                  <Image src="/checkgiftcardmall-hero.svg" alt="Illustration of a simple card, a shield, and a checklist" width={560} height={480} priority />
                   <div className="image-caption"><span className="caption-spark" aria-hidden="true">✦</span><span><strong>Clarity, not transactions</strong><small>Helpful information for your next step</small></span></div>
                 </div>
               </div>
@@ -334,7 +334,7 @@ export default function Home() {
             <div className="row g-4">
               <div className="col-md-6">
                 <article className="help-path-card">
-                  <span className="help-path-label">CARDWISE GUIDE</span>
+                  <span className="help-path-label">CheckGiftCardMall</span>
                   <h3>Learn how common card situations work.</h3>
                   <p>Use our independent guides for general explanations about balance checks, activation, pending holds, refunds, and card safety. We do not have access to card records and cannot act on an account.</p>
                   <Link href="/faq" className="text-link">Browse the frequently asked questions <span aria-hidden="true">→</span></Link>

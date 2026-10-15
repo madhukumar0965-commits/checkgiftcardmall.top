@@ -1,5 +1,6 @@
 import Link from "next/link";
 import BootstrapClient from "@/components/BootstrapClient";
+import { site } from "@/lib/site";
 
 const links = [
   ["GiftCardMall / MyGift", "/giftcardmall-mygift-guide"],
@@ -16,9 +17,9 @@ export default function SiteHeader() {
       <a className="skip-link" href="#main-content">Skip to content</a>
       <nav className="navbar navbar-expand-lg site-nav" aria-label="Main navigation">
         <div className="container">
-          <Link className="navbar-brand brand-lockup" href="/" aria-label="CheckGiftCardMall home">
+          <Link className="navbar-brand brand-lockup" href="/" aria-label={`${site.name} home`}>
             <span className="brand-mark" aria-hidden="true">C</span>
-            <span>cardwise<span className="brand-light">guide</span></span>
+            <span>{site.name}</span>
           </Link>
           <button
             className="navbar-toggler"
