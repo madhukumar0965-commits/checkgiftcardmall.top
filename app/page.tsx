@@ -6,9 +6,9 @@ import { faqs } from "@/lib/faq";
 import { pageMetadata } from "@/lib/seo";
 import { site } from "@/lib/site";
 
-const title = "GiftCardMall/MyGift | Activate Gift Card |MyGift, Blackhawk Network";
+const title = "GiftCardMall/MyGift Balance | Check Gift Card Balance | MyGift, Blackhawk Network";
 const description =
-  "Learn how to check your giftcardmall/mygift balance, MyGift, Blackhawk Network explore GiftCardMall balance options, activate eligible cards, register cards, and review transactions.";
+  "Learn how to check your GiftCardMall/MyGift balance, explore balance options, activate eligible cards, register cards, and review transactions.";
 
 export const metadata = pageMetadata(title, description, "");
 
@@ -53,12 +53,12 @@ export default function Home() {
           <div className="container">
             <div className="row align-items-center g-5">
               <div className="col-lg-7 hero-copy">
-                <span className="eyebrow"><span className="eyebrow-dot" /> GiftCardMall/MyGift guide</span>
-                <h1>GiftCardMall/MyGift – Check Balance, Activation, and Card Management</h1>
+                <span className="eyebrow"><span className="eyebrow-dot" /> GiftCardMall/MyGift balance</span>
+                <h1>GiftCardMall/MyGift Balance – Check Balance, Activation, and Card Management</h1>
                 <p className="hero-description">Gift cards are a convenient way to shop or give gifts, but it&apos;s important to know your remaining balance. By checking your available funds, you can avoid declined payments and keep track of your spending. Find guidance on checking a giftcardmall/mygift balance, activating eligible cards, registration, recent transactions, and keeping card details safe.</p>
                 <div className="hero-actions">
                   <Link className="btn btn-primary-ink" href="#balance">Check balance steps <span aria-hidden="true">→</span></Link>
-                  <Link className="btn btn-outline-ink" href="#activation">Card activation guide</Link>
+                  <Link className="btn btn-outline-ink" href="#activation">Card activation balance</Link>
                 </div>
                 <div className="hero-trust"><span className="trust-check" aria-hidden="true">✓</span> Independent information. Not GiftCardMall or MyGift. No balance lookups.</div>
               </div>
@@ -92,7 +92,7 @@ export default function Home() {
                 <span className="quickstart-step">FIRST · IDENTIFY</span>
                 <h3>Find the right balance instructions</h3>
                 <p>Review your card packaging or documentation to identify the issuer and its verified balance-checking address.</p>
-                <Link href="#balance-guide" className="text-link">Read the balance guide <span aria-hidden="true">→</span></Link>
+                <Link href="#balance-guide" className="text-link">Read the balance details <span aria-hidden="true">→</span></Link>
               </article>
               <article className="quickstart-card quickstart-card-highlight" id="activation">
                 <span className="quickstart-icon" aria-hidden="true">⌁</span>
@@ -202,7 +202,7 @@ export default function Home() {
                 <p>A prepaid payment may be declined if available funds are too low, a pending authorization is holding funds, or the merchant does not accept that card type.</p>
                 <p>Some cards require activation or registration, and card terms may restrict certain transactions. Acceptance and requirements vary by card and merchant.</p>
                 <p>Check the total, billing details, and merchant rules. Follow the issuer&apos;s instructions and avoid repeated attempts if a payment may still be processing.</p>
-                <Link href="#payments" className="text-link">Read the prepaid payment guide <span aria-hidden="true">↗</span></Link>
+                <Link href="#payments" className="text-link">Read the prepaid payment balance <span aria-hidden="true">↗</span></Link>
               </div>
             </div>
           </div>
@@ -233,7 +233,7 @@ export default function Home() {
             <div className="col-lg-7 editorial-copy">
               <p>Activation means a card is enabled for use; it is not the same as checking its balance. Registration may be optional or required for certain transactions. Read your card terms to understand fees, restrictions, expiration, and where the card can be used.</p>
               <p>Some prepaid Visa cards may be used at participating merchants, but a network mark does not guarantee acceptance for every transaction. Check the information provided with your card for product-specific rules.</p>
-              <p>For details about a specific card, use the issuer&apos;s current agreement and support information. Our <Link href="#about">editorial approach</Link> explains why these guides stay general.</p>
+              <p>For details about a specific card, use the issuer&apos;s current agreement and support information. Our <Link href="#about">editorial approach</Link> explains why these balance resources stay general.</p>
             </div>
           </div>
         </section>
@@ -245,7 +245,7 @@ export default function Home() {
                 <span className="eyebrow"><span className="eyebrow-dot" /> Looking for card instructions?</span>
                 <h2>GiftCardMall/MyGift card questions?</h2>
                 <p>Find general information about balance checks, Visa cards, activation, registration, and transactions. CheckGiftCardMall is independent and cannot access either service or any card account.</p>
-                <Link href="#giftcardmall" className="btn btn-primary-ink">Read the independent guide <span aria-hidden="true">→</span></Link>
+                <Link href="#giftcardmall" className="btn btn-primary-ink">Read the independent balance <span aria-hidden="true">→</span></Link>
               </div>
               <div className="brand-search-side" aria-label="Three reminders for card research">
                 <Image
@@ -272,7 +272,7 @@ export default function Home() {
             </div>
             <div className="keyword-answer-copy">
               <p>For an actual balance or account question, use the issuer details printed on your card or packaging. Check the full web address; search results can include look-alike pages.</p>
-              <p>This independent guide cannot check GiftCardMall or MyGift balances or access accounts. Read our <Link href="#giftcardmall">GiftCardMall and MyGift guide</Link> for general information and our <Link href="#balance-guide">gift card balance guide</Link> for pending holds and refunds.</p>
+              <p>This independent balance resource cannot check GiftCardMall or MyGift balances or access accounts. Read our <Link href="#giftcardmall">GiftCardMall and MyGift balance</Link> for general information and our <Link href="#balance-guide">gift card balance details</Link> for pending holds and refunds.</p>
             </div>
           </div>
         </section>
@@ -323,7 +323,7 @@ export default function Home() {
                 <article className="help-path-card">
                   <span className="help-path-label">CheckGiftCardMall</span>
                   <h3>Learn how common card situations work.</h3>
-                  <p>Use our independent guides for general explanations about balance checks, activation, pending holds, refunds, and card safety. We do not have access to card records and cannot act on an account.</p>
+                  <p>Use our independent balance resources for general explanations about balance checks, activation, pending holds, refunds, and card safety. We do not have access to card records and cannot act on an account.</p>
                   <Link href="#faq" className="text-link">Browse the frequently asked questions <span aria-hidden="true">→</span></Link>
                 </article>
               </div>
