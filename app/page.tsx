@@ -6,7 +6,7 @@ import { faqs } from "@/lib/faq";
 import { pageMetadata } from "@/lib/seo";
 import { site } from "@/lib/site";
 
-const title = "GiftCardMall/MyGift Balance, Check & Activation HelpBook";
+const title = "GiftCardMall/MyGift | Activate Gift Card | View Your Gift";
 const description =
   "Learn how to check your giftcardmall/mygift balance, explore GiftCardMall balance options, activate eligible cards, register cards, and review transactions.";
 
@@ -80,7 +80,7 @@ export default function Home() {
         <section className="section-pad quickstart-section">
           <div className="container">
             <div className="section-heading-row">
-              <div>
+              <div>   
                 <span className="eyebrow"><span className="eyebrow-dot" /> Start with what you have</span>
                 <h2>Three simple steps to understand your card.</h2>
               </div>
