@@ -18,19 +18,6 @@ const features = [
   { number: "03", title: "Review transactions", text: "Understand purchases, pending authorizations, refunds, and other changes to available funds.", href: "#transactions", link: "Transaction details" },
 ];
 
-const pages = [
-  { title: "Gift card balance guide", text: "Learn about available balances, pending holds, and refunds.", href: "/balance-guide" },
-  { title: "GiftCardMall/MyGift guide", text: "Find general information about card instructions and management.", href: "/giftcardmall-mygift-guide" },
-  { title: "Prepaid Visa guide", text: "Understand common prepaid card payment questions.", href: "/prepaid-visa-guide" },
-  { title: "Troubleshooting", text: "Review common payment and card issues.", href: "/troubleshooting" },
-  { title: "Card security", text: "Learn ways to protect card details and browse safely.", href: "/security" },
-  { title: "Frequently asked questions", text: "Read answers about balances, activation, payments, and safety.", href: "/faq" },
-  { title: "About CheckGiftCardMall", text: "Learn about this independent information resource.", href: "/about" },
-  { title: "Privacy policy", text: "Read how this website handles privacy.", href: "/privacy-policy" },
-  { title: "Contact", text: "See contact information and what this site can help with.", href: "/contact" },
-  { title: "Disclaimer", text: "Understand the limits of this general information.", href: "/disclaimer" },
-];
-
 export default function Home() {
   return (
     <>
@@ -86,7 +73,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="container notice-wrap" aria-label="Independence notice">
+        <section className="container notice-wrap" id="about" aria-label="Independence notice">
           <IndependenceNotice />
         </section>
 
@@ -105,21 +92,21 @@ export default function Home() {
                 <span className="quickstart-step">FIRST · IDENTIFY</span>
                 <h3>Find the right balance instructions</h3>
                 <p>Review your card packaging or documentation to identify the issuer and its verified balance-checking address.</p>
-                <Link href="/balance-guide" className="text-link">Read the balance guide <span aria-hidden="true">→</span></Link>
+                <Link href="#balance-guide" className="text-link">Read the balance guide <span aria-hidden="true">→</span></Link>
               </article>
               <article className="quickstart-card quickstart-card-highlight" id="activation">
                 <span className="quickstart-icon" aria-hidden="true">⌁</span>
                 <span className="quickstart-step">NEXT · CHECK</span>
                 <h3>Confirm activation and registration</h3>
                 <p>Requirements vary by card. Follow the instructions supplied with your card and verify the website before using it.</p>
-                <Link href="/giftcardmall-mygift-guide" className="text-link">Explore card management <span aria-hidden="true">→</span></Link>
+                <Link href="#giftcardmall" className="text-link">Explore card management <span aria-hidden="true">→</span></Link>
               </article>
               <article className="quickstart-card" id="transactions">
                 <span className="quickstart-icon" aria-hidden="true">✓</span>
                 <span className="quickstart-step">ALWAYS · STAY PRIVATE</span>
                 <h3>Review activity safely</h3>
                 <p>Compare purchases, pending authorizations, and refunds. Do not share card numbers, PINs, or security codes with unverified sites.</p>
-                <Link href="/security" className="text-link">See safety steps <span aria-hidden="true">→</span></Link>
+                <Link href="#security" className="text-link">See safety steps <span aria-hidden="true">→</span></Link>
               </article>
             </div>
           </div>
@@ -145,7 +132,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="section-pad explainer-section">
+        <section className="section-pad explainer-section" id="balance-guide">
           <div className="container">
             <div className="section-intro">
               <span className="eyebrow"><span className="eyebrow-dot" /> Start with the basics</span>
@@ -172,21 +159,21 @@ export default function Home() {
                   <span className="side-note-kicker">Keep in mind</span>
                   <h3>Available funds can change.</h3>
                   <p>Purchases, pending authorizations, refunds, and fees may affect what is available. Only the issuer can explain live account activity.</p>
-                  <Link href="/balance-guide" className="text-link">Understand balance differences <span aria-hidden="true">→</span></Link>
+                  <Link href="#balance-guide" className="text-link">Understand balance differences <span aria-hidden="true">→</span></Link>
                 </aside>
               </div>
             </div>
           </div>
         </section>
 
-        <section className="section-pad safety-section">
+        <section className="section-pad safety-section" id="security">
           <div className="container">
             <div className="row g-5">
               <div className="col-lg-5">
                 <span className="eyebrow eyebrow-light"><span className="eyebrow-dot" /> Pause before you share</span>
                 <h2>Protect your GiftCardMall/MyGift card details.</h2>
                 <p>Treat a gift card like cash. A page that mentions your card or looks familiar is not proof that it belongs to the issuer.</p>
-                <Link href="/security" className="btn btn-light-outline">See the privacy checklist <span aria-hidden="true">→</span></Link>
+                <Link href="#security" className="btn btn-light-outline">See the privacy checklist <span aria-hidden="true">→</span></Link>
               </div>
               <div className="col-lg-7">
                 <div className="safety-checks">
@@ -199,7 +186,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="section-pad payment-section">
+        <section className="section-pad payment-section" id="payments">
           <div className="container">
             <div className="row align-items-center g-5">
               <div className="col-lg-6">
@@ -215,7 +202,7 @@ export default function Home() {
                 <p>A prepaid payment may be declined if available funds are too low, a pending authorization is holding funds, or the merchant does not accept that card type.</p>
                 <p>Some cards require activation or registration, and card terms may restrict certain transactions. Acceptance and requirements vary by card and merchant.</p>
                 <p>Check the total, billing details, and merchant rules. Follow the issuer&apos;s instructions and avoid repeated attempts if a payment may still be processing.</p>
-                <Link href="/prepaid-visa-guide" className="text-link">Read the prepaid payment guide <span aria-hidden="true">↗</span></Link>
+                <Link href="#payments" className="text-link">Read the prepaid payment guide <span aria-hidden="true">↗</span></Link>
               </div>
             </div>
           </div>
@@ -246,19 +233,19 @@ export default function Home() {
             <div className="col-lg-7 editorial-copy">
               <p>Activation means a card is enabled for use; it is not the same as checking its balance. Registration may be optional or required for certain transactions. Read your card terms to understand fees, restrictions, expiration, and where the card can be used.</p>
               <p>Some prepaid Visa cards may be used at participating merchants, but a network mark does not guarantee acceptance for every transaction. Check the information provided with your card for product-specific rules.</p>
-              <p>For details about a specific card, use the issuer&apos;s current agreement and support information. Our <Link href="/about">editorial approach</Link> explains why these guides stay general.</p>
+              <p>For details about a specific card, use the issuer&apos;s current agreement and support information. Our <Link href="#about">editorial approach</Link> explains why these guides stay general.</p>
             </div>
           </div>
         </section>
 
-        <section className="section-pad brand-search-section">
+        <section className="section-pad brand-search-section" id="giftcardmall">
           <div className="container">
             <div className="brand-search-card">
               <div className="brand-search-copy">
                 <span className="eyebrow"><span className="eyebrow-dot" /> Looking for card instructions?</span>
                 <h2>GiftCardMall/MyGift card questions?</h2>
                 <p>Find general information about balance checks, Visa cards, activation, registration, and transactions. CheckGiftCardMall is independent and cannot access either service or any card account.</p>
-                <Link href="/giftcardmall-mygift-guide" className="btn btn-primary-ink">Read the independent guide <span aria-hidden="true">→</span></Link>
+                <Link href="#giftcardmall" className="btn btn-primary-ink">Read the independent guide <span aria-hidden="true">→</span></Link>
               </div>
               <div className="brand-search-side" aria-label="Three reminders for card research">
                 <Image
@@ -285,12 +272,12 @@ export default function Home() {
             </div>
             <div className="keyword-answer-copy">
               <p>For an actual balance or account question, use the issuer details printed on your card or packaging. Check the full web address; search results can include look-alike pages.</p>
-              <p>This independent guide cannot check GiftCardMall or MyGift balances or access accounts. Read our <Link href="/giftcardmall-mygift-guide">GiftCardMall and MyGift guide</Link> for general information and our <Link href="/balance-guide">gift card balance guide</Link> for pending holds and refunds.</p>
+              <p>This independent guide cannot check GiftCardMall or MyGift balances or access accounts. Read our <Link href="#giftcardmall">GiftCardMall and MyGift guide</Link> for general information and our <Link href="#balance-guide">gift card balance guide</Link> for pending holds and refunds.</p>
             </div>
           </div>
         </section>
 
-        <section className="section-pad purchase-section">
+        <section className="section-pad purchase-section" id="troubleshooting">
           <div className="container">
             <div className="section-intro">
               <span className="eyebrow"><span className="eyebrow-dot" /> Keep track of activity</span>
@@ -320,11 +307,11 @@ export default function Home() {
                 </article>
               </div>
             </div>
-            <div className="purchase-reminder"><strong>Keep your records.</strong> Save receipts and card instructions until any transaction or activation questions are resolved. <Link href="/troubleshooting">Review troubleshooting steps <span aria-hidden="true">→</span></Link></div>
+            <div className="purchase-reminder"><strong>Keep your records.</strong> Save receipts and card instructions until any transaction or activation questions are resolved. <Link href="#troubleshooting">Review troubleshooting steps <span aria-hidden="true">→</span></Link></div>
           </div>
         </section>
 
-        <section className="section-pad help-path-section">
+        <section className="section-pad help-path-section" id="contact">
           <div className="container">
             <div className="section-intro">
               <span className="eyebrow"><span className="eyebrow-dot" /> The right help depends on the question</span>
@@ -337,7 +324,7 @@ export default function Home() {
                   <span className="help-path-label">CheckGiftCardMall</span>
                   <h3>Learn how common card situations work.</h3>
                   <p>Use our independent guides for general explanations about balance checks, activation, pending holds, refunds, and card safety. We do not have access to card records and cannot act on an account.</p>
-                  <Link href="/faq" className="text-link">Browse the frequently asked questions <span aria-hidden="true">→</span></Link>
+                  <Link href="#faq" className="text-link">Browse the frequently asked questions <span aria-hidden="true">→</span></Link>
                 </article>
               </div>
               <div className="col-md-6">
@@ -345,38 +332,14 @@ export default function Home() {
                   <span className="help-path-label">THE ISSUER</span>
                   <h3>Resolve questions about a specific card.</h3>
                   <p>For current balances, activation, lost cards, unrecognized activity, or a particular decline, contact the card issuer through the details printed on your card or original packaging.</p>
-                  <Link href="/contact" className="text-link">See our contact boundaries <span aria-hidden="true">→</span></Link>
+                  <Link href="#contact" className="text-link">See our contact boundaries <span aria-hidden="true">→</span></Link>
                 </article>
               </div>
             </div>
           </div>
         </section>
 
-        <section className="section-pad feature-section" aria-labelledby="all-guides-heading">
-          <div className="container">
-            <div className="section-heading-row">
-              <div>
-                <span className="eyebrow"><span className="eyebrow-dot" /> Explore CheckGiftCardMall</span>
-                <h2 id="all-guides-heading">All guides and pages.</h2>
-              </div>
-              <p>Browse every guide and information page available on this site.</p>
-            </div>
-            <div className="row g-4">
-              {pages.map((page, index) => (
-                <div className="col-md-6 col-lg-4" key={page.href}>
-                  <article className="feature-card">
-                    <span className="feature-number">{String(index + 1).padStart(2, "0")}</span>
-                    <h3>{page.title}</h3>
-                    <p>{page.text}</p>
-                    <Link href={page.href} className="text-link">Open page <span aria-hidden="true">↗</span></Link>
-                  </article>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        <section className="section-pad explainer-section" aria-labelledby="home-faq-heading">
+        <section className="section-pad explainer-section" id="faq" aria-labelledby="home-faq-heading">
           <div className="container">
             <div className="section-intro">
               <span className="eyebrow"><span className="eyebrow-dot" /> Quick, clear answers</span>
@@ -409,14 +372,14 @@ export default function Home() {
                 </div>
               ))}
             </div>
-            <p className="mt-4"><Link href="/faq" className="text-link">Visit the FAQs page <span aria-hidden="true">→</span></Link></p>
+            <p className="mt-4"><Link href="#faq" className="text-link">Visit the FAQs page <span aria-hidden="true">→</span></Link></p>
           </div>
         </section>
 
         <section className="closing-section">
           <div className="container closing-inner">
             <div><span className="eyebrow eyebrow-light"><span className="eyebrow-dot" /> Keep it simple</span><h2>Find clear guidance for your situation.</h2><p>Choose a topic to get oriented, then rely on the issuer for account-specific questions.</p></div>
-            <div className="closing-links"><Link href="/troubleshooting">Troubleshoot a payment <span>→</span></Link><Link href="/faq">Browse common questions <span>→</span></Link></div>
+            <div className="closing-links"><Link href="#troubleshooting">Troubleshoot a payment <span>→</span></Link><Link href="#faq">Browse common questions <span>→</span></Link></div>
           </div>
         </section>
       </main>

@@ -5,17 +5,3 @@ export const site = {
   description:
     "Independent information about GiftCardMall/MyGift balance searches, prepaid gift card safety, and finding issuer support without sharing card details.",
 };
-
-export const paths = [
-  "",
-  "/balance-guide",
-  "/giftcardmall-mygift-guide",
-  "/prepaid-visa-guide",
-  "/troubleshooting",
-  "/security",
-  "/faq",
-  "/about",
-  "/privacy-policy",
-  "/contact",
-  "/disclaimer",
-] as const;

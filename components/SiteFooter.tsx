@@ -14,21 +14,19 @@ export default function SiteFooter() {
           <div className="col-6 col-lg-2">
             <h2 className="footer-heading">Explore</h2>
             <ul className="footer-links">
-              <li><Link href="/giftcardmall-mygift-guide">GiftCardMall &amp; MyGift guide</Link></li>
-              <li><Link href="/balance-guide">Balance guide</Link></li>
-              <li><Link href="/prepaid-visa-guide">Prepaid payment guide</Link></li>
-              <li><Link href="/troubleshooting">Troubleshooting</Link></li>
-              <li><Link href="/security">Security</Link></li>
-              <li><Link href="/faq">FAQs</Link></li>
+              <li><Link href="#giftcardmall">GiftCardMall &amp; MyGift guide</Link></li>
+              <li><Link href="#balance-guide">Balance guide</Link></li>
+              <li><Link href="#payments">Prepaid payment guide</Link></li>
+              <li><Link href="#troubleshooting">Troubleshooting</Link></li>
+              <li><Link href="#security">Security</Link></li>
+              <li><Link href="#faq">FAQs</Link></li>
             </ul>
           </div>
           <div className="col-6 col-lg-2">
             <h2 className="footer-heading">About</h2>
             <ul className="footer-links">
-              <li><Link href="/about">Our approach</Link></li>
-              <li><Link href="/contact">Contact</Link></li>
-              <li><Link href="/privacy-policy">Privacy policy</Link></li>
-              <li><Link href="/disclaimer">Disclaimer</Link></li>
+              <li><Link href="#about">Our approach</Link></li>
+              <li><Link href="#contact">Contact boundaries</Link></li>
             </ul>
           </div>
           <div className="col-lg-3">

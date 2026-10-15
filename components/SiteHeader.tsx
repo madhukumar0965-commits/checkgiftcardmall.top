@@ -3,12 +3,12 @@ import BootstrapClient from "@/components/BootstrapClient";
 import { site } from "@/lib/site";
 
 const links = [
-  ["GiftCardMall / MyGift", "/giftcardmall-mygift-guide"],
-  ["Balance guide", "/balance-guide"],
-  ["Prepaid payment guide", "/prepaid-visa-guide"],
-  ["Troubleshooting", "/troubleshooting"],
-  ["Security", "/security"],
-  ["FAQs", "/faq"],
+  ["GiftCardMall / MyGift", "#giftcardmall"],
+  ["Balance guide", "#balance-guide"],
+  ["Prepaid payment guide", "#payments"],
+  ["Troubleshooting", "#troubleshooting"],
+  ["Security", "#security"],
+  ["FAQs", "#faq"],
 ];
 
 export default function SiteHeader() {
@@ -40,7 +40,7 @@ export default function SiteHeader() {
                 </li>
               ))}
               <li className="nav-item ms-lg-2">
-                <Link className="btn btn-nav" href="/about">About this guide <span aria-hidden="true">↗</span></Link>
+                <Link className="btn btn-nav" href="#about">About this guide <span aria-hidden="true">↗</span></Link>
               </li>
             </ul>
           </div>
